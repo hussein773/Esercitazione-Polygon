@@ -3,22 +3,20 @@
 
 	Details.
 */
+#ifndef ISOTRAPEZOID_H
+#define ISOTRAPEZOID_H
 #include "polygon.h"
 
 /// @class isotrapezoid
-/// @brief an abstract base class for polygons
+/// @brief derived class
 
 class isotrapezoid : public Polygon{
 
-protected:
-    float perimeter;
-    float area;
+private:
     float Base1;
     float Base2;
     float Height;
 
-    float Area()=0;
-    float Perimeter()=0;
 
 public:
     /// @name CONSTRUCTORS/DESTRUCTOR
@@ -37,19 +35,31 @@ public:
     /// @name BASIC HANDLING
     /// @{
     void Init();
-    void Init(const isotrapezoid &r);
+    void Init(const isotrapezoid &i);
     void Reset();
     /// @}
 
     /// @name GETTERS
     /// @{
+    float GetDim();
     float GetBase1();
     float GetBase2();
     float GetHeight();
+    float GetPerimeter();
+    float GetArea();
     /// @}
+
+    /// @name SETTERS
+    /// @{
+    void SetDim(float b1, float b2, float h);
+    void SetBase1(float b1);
+    void SetBase2(float b2);
+    void SetHeight(float h);
+    ///@}
 
     /// @name DEBUG and SERIALIZATION
     /// @{
     void Dump();
     /// @}
 };
+#endif
