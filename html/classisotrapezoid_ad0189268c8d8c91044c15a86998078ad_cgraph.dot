@@ -1,0 +1,19 @@
+digraph "isotrapezoid::Draw"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="isotrapezoid::Draw",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="draw the object"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="isotrapezoid::GetArea",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a3b4bff7be3bb3d343e16541261b90463",tooltip="get the area of the object"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="isotrapezoid::GetBase1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a8f1a8c9a8e86a5286f0eab48d8f41c85",tooltip="get Base1 (Bottom Side) of the object"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="isotrapezoid::GetBase2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a91dac49c7717a47549c2e51279ece905",tooltip="get Base2 (Top Side) of the object"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="isotrapezoid::GetPerimeter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#aecf83854976a4ea601f1d56f5cc18ad6",tooltip="get the perimeter of the object"];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="isotrapezoid::GetSide",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a409e82c4c799067d04d70b03235b9756",tooltip="get Side of the object"];
+}
