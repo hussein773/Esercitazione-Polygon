@@ -1,0 +1,419 @@
+\hypertarget{classisotrapezoid}{}\doxysection{isotrapezoid Class Reference}
+\label{classisotrapezoid}\index{isotrapezoid@{isotrapezoid}}
+
+
+derived class  
+
+
+
+
+{\ttfamily \#include $<$isotrapezoid.\+h$>$}
+
+
+
+Inheritance diagram for isotrapezoid\+:
+% FIG 0
+
+
+Collaboration diagram for isotrapezoid\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{Indent}\textbf{ CONSTRUCTORS/\+DESTRUCTOR}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classisotrapezoid_ac497cff0140be36f97c13d096fb25db6}\label{classisotrapezoid_ac497cff0140be36f97c13d096fb25db6}} 
+{\bfseries isotrapezoid} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classisotrapezoid_a444f4ffaa2a14d6bdc537c7d6c545585}\label{classisotrapezoid_a444f4ffaa2a14d6bdc537c7d6c545585}} 
+{\bfseries isotrapezoid} (float b1, float b2, float h)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classisotrapezoid_a14275f5176a80052a2bc42659497bdf3}\label{classisotrapezoid_a14275f5176a80052a2bc42659497bdf3}} 
+virtual {\bfseries $\sim$isotrapezoid} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ OPERATORS}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \& \mbox{\hyperlink{classisotrapezoid_a603395cff7648897dc7f4f42c4a38ded}{operator=}} (const \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \&i)
+\begin{DoxyCompactList}\small\item\em overload of operator = \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classisotrapezoid_ad33bcbbfa29b6c0d790b84800fa4b778}{operator==}} (const \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \&i) const
+\begin{DoxyCompactList}\small\item\em overload of operator == \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ BASIC HANDLING}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classisotrapezoid_a648309deba387ec70275f1156a62ff6f}\label{classisotrapezoid_a648309deba387ec70275f1156a62ff6f}} 
+void {\bfseries Init} ()
+\begin{DoxyCompactList}\small\item\em default initialization of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classisotrapezoid_a6da08e26024e16254b0ee9a404afc371}\label{classisotrapezoid_a6da08e26024e16254b0ee9a404afc371}} 
+void {\bfseries Init} (const \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \&i)
+\begin{DoxyCompactList}\small\item\em initialization with parameter of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classisotrapezoid_a701d65939071d0efbc46ccb28f6f505f}\label{classisotrapezoid_a701d65939071d0efbc46ccb28f6f505f}} 
+void {\bfseries Reset} ()
+\begin{DoxyCompactList}\small\item\em total reset of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ GETTERS}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classisotrapezoid_a1daf3adbe07ebb277f1196839a249e5c}\label{classisotrapezoid_a1daf3adbe07ebb277f1196839a249e5c}} 
+float {\bfseries Get\+Dim} ()
+\item 
+float \mbox{\hyperlink{classisotrapezoid_a8f1a8c9a8e86a5286f0eab48d8f41c85}{Get\+Base1}} ()
+\begin{DoxyCompactList}\small\item\em get Base1 (Bottom Side) of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classisotrapezoid_a91dac49c7717a47549c2e51279ece905}{Get\+Base2}} ()
+\begin{DoxyCompactList}\small\item\em get Base2 (Top Side) of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classisotrapezoid_affaaf770a2cf8fe6a5d06fc5ec9ad440}{Get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em get Height of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classisotrapezoid_a409e82c4c799067d04d70b03235b9756}{Get\+Side}} ()
+\begin{DoxyCompactList}\small\item\em get Side of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classisotrapezoid_aecf83854976a4ea601f1d56f5cc18ad6}{Get\+Perimeter}} ()
+\begin{DoxyCompactList}\small\item\em get the perimeter of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classisotrapezoid_a3b4bff7be3bb3d343e16541261b90463}{Get\+Area}} ()
+\begin{DoxyCompactList}\small\item\em get the area of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ SETTERS}\par
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classisotrapezoid_a4b3bab523d8480c483642410b5e82583}{Set\+Dim}} (float b1, float b2, float h)
+\begin{DoxyCompactList}\small\item\em set dimensions of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classisotrapezoid_ac24d48feb564f6101cfbf9f22317955b}{Set\+Base1}} (float b1)
+\begin{DoxyCompactList}\small\item\em set Base1 of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classisotrapezoid_a238668316dc53aa3f160d3d3a66bc54b}{Set\+Base2}} (float b2)
+\begin{DoxyCompactList}\small\item\em set Base2 of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classisotrapezoid_a82223d4b95265a4cfa4fb2a89299c646}{Set\+Height}} (float h)
+\begin{DoxyCompactList}\small\item\em set Height of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ DRAWING}\par
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classisotrapezoid_ad0189268c8d8c91044c15a86998078ad}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em draw the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ DEBUG and SERIALIZATION}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classisotrapezoid_a5c2bc41751dcb30211694a372c720034}\label{classisotrapezoid_a5c2bc41751dcb30211694a372c720034}} 
+bool {\bfseries Error\+Dim} ()
+\begin{DoxyCompactList}\small\item\em @bref function to check if the bottom side is larger than the top side \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classisotrapezoid_a71c4b22668a3a55c88f0fed7dbb2a268}{Error\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write an error message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classisotrapezoid_a9efc008cfe85dd38951cd4dc0c723fad}{Warning\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write a warning message \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classisotrapezoid_a1334ada9db541be83aa6484b1b26b802}\label{classisotrapezoid_a1334ada9db541be83aa6484b1b26b802}} 
+void {\bfseries Dump} ()
+\begin{DoxyCompactList}\small\item\em for debugging\+: all about the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_polygon}{Polygon}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_ac183e712f8be1e13f1c9d5b4d4512ead}\label{class_polygon_ac183e712f8be1e13f1c9d5b4d4512ead}} 
+{\bfseries Polygon} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_polygon_a342ca15271acbc437a0b1542118c025a}{Polygon}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_ace39c67107966db12e13a183f496c3b0}\label{class_polygon_ace39c67107966db12e13a183f496c3b0}} 
+virtual {\bfseries $\sim$\+Polygon} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_polygon}{Polygon}} \& \mbox{\hyperlink{class_polygon_afa6c4ee147650491a3685c645430b992}{operator=}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em overload of operator = \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_polygon_a0e7572ea3f662a652643bb275e115292}{operator==}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em overload of operator == \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_ae971a221f26793e00ee3055aaa5853b0}\label{class_polygon_ae971a221f26793e00ee3055aaa5853b0}} 
+void {\bfseries Init} ()
+\begin{DoxyCompactList}\small\item\em default initialization of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_polygon_a19a11205b332be736c329275bb3b045d}{Init}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&r)
+\begin{DoxyCompactList}\small\item\em initialization of the object as a copy of an object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_a0049882c6d5d7fda0fed6f9bcb4271d2}\label{class_polygon_a0049882c6d5d7fda0fed6f9bcb4271d2}} 
+void {\bfseries Reset} ()
+\begin{DoxyCompactList}\small\item\em total reset of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_polygon_af63a6443688ab576e9f42fcd4e8f30d0}{Get\+Area}} ()
+\begin{DoxyCompactList}\small\item\em get the area of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_polygon_a7770bef071b4fe38cced3fd981e74af0}{Get\+Perimeter}} ()
+\begin{DoxyCompactList}\small\item\em get the perimeter of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_polygon_a702f6f4740487b93eb4ce5e6516f1876}{Error\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write an error message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_polygon_aadfc52c992fe7459a9a4529de5f46a81}{Warning\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write a warning message \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_a77413dafe2bc94e8950749c40365868a}\label{class_polygon_a77413dafe2bc94e8950749c40365868a}} 
+void {\bfseries Dump} ()
+\begin{DoxyCompactList}\small\item\em for debugging\+: all about the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_a961203408efc953ac0db1bbae4046a34}\label{class_polygon_a961203408efc953ac0db1bbae4046a34}} 
+virtual float {\bfseries Area} ()=0
+\item 
+\mbox{\Hypertarget{class_polygon_afb476eead8e22f4eb5109b1e5edd5e98}\label{class_polygon_afb476eead8e22f4eb5109b1e5edd5e98}} 
+virtual float {\bfseries Perimeter} ()=0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_polygon}{Polygon}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_a24b5b13ce358b9bceb3c7d75fc38a469}\label{class_polygon_a24b5b13ce358b9bceb3c7d75fc38a469}} 
+float {\bfseries perimeter}
+\item 
+\mbox{\Hypertarget{class_polygon_aa30cff56b9b4b5617605326d539867b2}\label{class_polygon_aa30cff56b9b4b5617605326d539867b2}} 
+float {\bfseries area}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+derived class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classisotrapezoid_ad0189268c8d8c91044c15a86998078ad}\label{classisotrapezoid_ad0189268c8d8c91044c15a86998078ad}} 
+\index{isotrapezoid@{isotrapezoid}!Draw@{Draw}}
+\index{Draw@{Draw}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+draw the object 
+
+
+
+Implements \mbox{\hyperlink{class_polygon_a4c5e91dc6a5534291d7e74fcbe5ee53c}{Polygon}}.
+
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classisotrapezoid_a71c4b22668a3a55c88f0fed7dbb2a268}\label{classisotrapezoid_a71c4b22668a3a55c88f0fed7dbb2a268}} 
+\index{isotrapezoid@{isotrapezoid}!ErrorMessage@{ErrorMessage}}
+\index{ErrorMessage@{ErrorMessage}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{ErrorMessage()}{ErrorMessage()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Error\+Message (\begin{DoxyParamCaption}\item[{const char $\ast$}]{string }\end{DoxyParamCaption})}
+
+
+
+write an error message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & message to be printed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classisotrapezoid_a3b4bff7be3bb3d343e16541261b90463}\label{classisotrapezoid_a3b4bff7be3bb3d343e16541261b90463}} 
+\index{isotrapezoid@{isotrapezoid}!GetArea@{GetArea}}
+\index{GetArea@{GetArea}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetArea()}{GetArea()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the area of the object 
+
+\begin{DoxyReturn}{Returns}
+area of the isotrapezoid 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{classisotrapezoid_a8f1a8c9a8e86a5286f0eab48d8f41c85}\label{classisotrapezoid_a8f1a8c9a8e86a5286f0eab48d8f41c85}} 
+\index{isotrapezoid@{isotrapezoid}!GetBase1@{GetBase1}}
+\index{GetBase1@{GetBase1}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetBase1()}{GetBase1()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Base1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get Base1 (Bottom Side) of the object 
+
+\begin{DoxyReturn}{Returns}
+Base1 (Bottom Side) 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{classisotrapezoid_a91dac49c7717a47549c2e51279ece905}\label{classisotrapezoid_a91dac49c7717a47549c2e51279ece905}} 
+\index{isotrapezoid@{isotrapezoid}!GetBase2@{GetBase2}}
+\index{GetBase2@{GetBase2}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetBase2()}{GetBase2()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Base2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get Base2 (Top Side) of the object 
+
+\begin{DoxyReturn}{Returns}
+Base2 (Top Side) 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{classisotrapezoid_affaaf770a2cf8fe6a5d06fc5ec9ad440}\label{classisotrapezoid_affaaf770a2cf8fe6a5d06fc5ec9ad440}} 
+\index{isotrapezoid@{isotrapezoid}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get Height of the object 
+
+\begin{DoxyReturn}{Returns}
+Height 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classisotrapezoid_aecf83854976a4ea601f1d56f5cc18ad6}\label{classisotrapezoid_aecf83854976a4ea601f1d56f5cc18ad6}} 
+\index{isotrapezoid@{isotrapezoid}!GetPerimeter@{GetPerimeter}}
+\index{GetPerimeter@{GetPerimeter}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetPerimeter()}{GetPerimeter()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Perimeter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get the perimeter of the object 
+
+\begin{DoxyReturn}{Returns}
+perimeter of the isotrapezoid 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{classisotrapezoid_a409e82c4c799067d04d70b03235b9756}\label{classisotrapezoid_a409e82c4c799067d04d70b03235b9756}} 
+\index{isotrapezoid@{isotrapezoid}!GetSide@{GetSide}}
+\index{GetSide@{GetSide}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{GetSide()}{GetSide()}}
+{\footnotesize\ttfamily float isotrapezoid\+::\+Get\+Side (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get Side of the object 
+
+\begin{DoxyReturn}{Returns}
+Side 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{classisotrapezoid_a603395cff7648897dc7f4f42c4a38ded}\label{classisotrapezoid_a603395cff7648897dc7f4f42c4a38ded}} 
+\index{isotrapezoid@{isotrapezoid}!operator=@{operator=}}
+\index{operator=@{operator=}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \& isotrapezoid\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \&}]{i }\end{DoxyParamCaption})}
+
+
+
+overload of operator = 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & reference to the object on the right side of the operator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reference to the object on the left side of the operator 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classisotrapezoid_ad33bcbbfa29b6c0d790b84800fa4b778}\label{classisotrapezoid_ad33bcbbfa29b6c0d790b84800fa4b778}} 
+\index{isotrapezoid@{isotrapezoid}!operator==@{operator==}}
+\index{operator==@{operator==}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool isotrapezoid\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}} \&}]{i }\end{DoxyParamCaption}) const}
+
+
+
+overload of operator == 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & reference to the object on the right side of the operator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the two objects have the same bases and the same height 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classisotrapezoid_ac24d48feb564f6101cfbf9f22317955b}\label{classisotrapezoid_ac24d48feb564f6101cfbf9f22317955b}} 
+\index{isotrapezoid@{isotrapezoid}!SetBase1@{SetBase1}}
+\index{SetBase1@{SetBase1}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{SetBase1()}{SetBase1()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Set\+Base1 (\begin{DoxyParamCaption}\item[{float}]{b1 }\end{DoxyParamCaption})}
+
+
+
+set Base1 of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b1} & Base1 \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{classisotrapezoid_a238668316dc53aa3f160d3d3a66bc54b}\label{classisotrapezoid_a238668316dc53aa3f160d3d3a66bc54b}} 
+\index{isotrapezoid@{isotrapezoid}!SetBase2@{SetBase2}}
+\index{SetBase2@{SetBase2}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{SetBase2()}{SetBase2()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Set\+Base2 (\begin{DoxyParamCaption}\item[{float}]{b2 }\end{DoxyParamCaption})}
+
+
+
+set Base2 of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b2} & Base2 \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{classisotrapezoid_a4b3bab523d8480c483642410b5e82583}\label{classisotrapezoid_a4b3bab523d8480c483642410b5e82583}} 
+\index{isotrapezoid@{isotrapezoid}!SetDim@{SetDim}}
+\index{SetDim@{SetDim}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{SetDim()}{SetDim()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Set\+Dim (\begin{DoxyParamCaption}\item[{float}]{b1,  }\item[{float}]{b2,  }\item[{float}]{h }\end{DoxyParamCaption})}
+
+
+
+set dimensions of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b1} & Base1 (Bottom Side) \\
+\hline
+{\em b2} & Base2 (Top Side) \\
+\hline
+{\em h} & height \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 10
+\mbox{\Hypertarget{classisotrapezoid_a82223d4b95265a4cfa4fb2a89299c646}\label{classisotrapezoid_a82223d4b95265a4cfa4fb2a89299c646}} 
+\index{isotrapezoid@{isotrapezoid}!SetHeight@{SetHeight}}
+\index{SetHeight@{SetHeight}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{SetHeight()}{SetHeight()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Set\+Height (\begin{DoxyParamCaption}\item[{float}]{h }\end{DoxyParamCaption})}
+
+
+
+set Height of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & Height \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{classisotrapezoid_a9efc008cfe85dd38951cd4dc0c723fad}\label{classisotrapezoid_a9efc008cfe85dd38951cd4dc0c723fad}} 
+\index{isotrapezoid@{isotrapezoid}!WarningMessage@{WarningMessage}}
+\index{WarningMessage@{WarningMessage}!isotrapezoid@{isotrapezoid}}
+\doxysubsubsection{\texorpdfstring{WarningMessage()}{WarningMessage()}}
+{\footnotesize\ttfamily void isotrapezoid\+::\+Warning\+Message (\begin{DoxyParamCaption}\item[{const char $\ast$}]{string }\end{DoxyParamCaption})}
+
+
+
+write a warning message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & message to be printed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{isotrapezoid_8h}{isotrapezoid.\+h}}\item 
+isotrapezoid.\+cpp\end{DoxyCompactItemize}

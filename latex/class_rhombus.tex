@@ -1,0 +1,376 @@
+\hypertarget{class_rhombus}{}\doxysection{Rhombus Class Reference}
+\label{class_rhombus}\index{Rhombus@{Rhombus}}
+
+
+to manage an object with the shape of a rhombus  
+
+
+
+
+{\ttfamily \#include $<$rhombus.\+h$>$}
+
+
+
+Inheritance diagram for Rhombus\+:
+% FIG 0
+
+
+Collaboration diagram for Rhombus\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{Indent}\textbf{ CONSTRUCTORS/\+DESTRUCTOR}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_rhombus_af2d9ee31831aae99fcaf68ac5ca8ef46}\label{class_rhombus_af2d9ee31831aae99fcaf68ac5ca8ef46}} 
+{\bfseries Rhombus} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_rhombus_ae04c36b198058242b0ea2b3a7eb33bcc}{Rhombus}} (float dH, float dV)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_rhombus_a1b04401f57bc75d086937485577f6fa7}{Rhombus}} (const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r)
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a3e1f19ec28b6a16582da9a5c176cb6c4}\label{class_rhombus_a3e1f19ec28b6a16582da9a5c176cb6c4}} 
+{\bfseries $\sim$\+Rhombus} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ BASIC HANDLING}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_rhombus_af0169681fb729d68acf7388885f7966b}\label{class_rhombus_af0169681fb729d68acf7388885f7966b}} 
+void {\bfseries Init} ()
+\begin{DoxyCompactList}\small\item\em default initializer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a6803eac7ba6667188207141f8484d303}\label{class_rhombus_a6803eac7ba6667188207141f8484d303}} 
+void {\bfseries Init} (const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r)
+\begin{DoxyCompactList}\small\item\em copy initializer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a8c4b1adb1985a785271e8b2a3c61d8ba}\label{class_rhombus_a8c4b1adb1985a785271e8b2a3c61d8ba}} 
+void {\bfseries Reset} ()
+\begin{DoxyCompactList}\small\item\em object eraser \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ GETTERS}\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_rhombus_a7e4c96e5c1767eac0b14e65f3796cc70}\label{class_rhombus_a7e4c96e5c1767eac0b14e65f3796cc70}} 
+void {\bfseries Get\+Diagonals} (float \&dH, float \&dV)
+\item 
+void \mbox{\hyperlink{class_rhombus_abadd24f6904a118860f686279e78c491}{Get\+Dim}} (float \&dH, float \&dV)
+\begin{DoxyCompactList}\small\item\em set width and length of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a67a2e6d01e6b13eb4e3d140c7be50d7e}\label{class_rhombus_a67a2e6d01e6b13eb4e3d140c7be50d7e}} 
+float {\bfseries Get\+DiagH} ()
+\begin{DoxyCompactList}\small\item\em get horizontal diagonal of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a4ee1a8c64eb4a04ed77f708fdb1abb06}\label{class_rhombus_a4ee1a8c64eb4a04ed77f708fdb1abb06}} 
+float {\bfseries Get\+DiagV} ()
+\begin{DoxyCompactList}\small\item\em get vertical diagonal of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a8465bf6719165d8fe9588e03e18a4a38}\label{class_rhombus_a8465bf6719165d8fe9588e03e18a4a38}} 
+float {\bfseries Get\+Side} ()
+\begin{DoxyCompactList}\small\item\em get side of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_abae45f585a75e451d1584818b6228d53}\label{class_rhombus_abae45f585a75e451d1584818b6228d53}} 
+float {\bfseries Get\+Area} ()
+\begin{DoxyCompactList}\small\item\em get area of the object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a566d63eecbad66c4a2898770e680e564}\label{class_rhombus_a566d63eecbad66c4a2898770e680e564}} 
+float {\bfseries Get\+Perimeter} ()
+\begin{DoxyCompactList}\small\item\em get perimeter of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ SETTERS}\par
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_rhombus_af88d32916dcbb397932af5dc67aba176}{Set\+Dim}} (float dH, float dV)
+\begin{DoxyCompactList}\small\item\em set horizontal and vertical diagonal of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_rhombus_ab09cd92941df407a546d8d17e1614e95}{Set\+DiagH}} (float dH)
+\begin{DoxyCompactList}\small\item\em set horizontal diagonal of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_rhombus_a7faa4094000dce54bdfde63ebd958037}{Set\+DiagV}} (float dV)
+\begin{DoxyCompactList}\small\item\em set vertical diagonal of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ DRAWING}\par
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_rhombus_ae425798d95014792d745392963cb9efa}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em draw the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ DEBUG and SERIALIZATION}\par
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_rhombus_a70d5e28d6c6c07462a3cb8d468de203c}{Error\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write an error message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_rhombus_a53eee6e2447661d690a1269d5dae4e0a}{Warning\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write a warning message \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_a33a9f4a2d92b47b1043da1617d520eee}\label{class_rhombus_a33a9f4a2d92b47b1043da1617d520eee}} 
+void {\bfseries Dump} ()
+\begin{DoxyCompactList}\small\item\em debug \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_polygon}{Polygon}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_ac183e712f8be1e13f1c9d5b4d4512ead}\label{class_polygon_ac183e712f8be1e13f1c9d5b4d4512ead}} 
+{\bfseries Polygon} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_polygon_a342ca15271acbc437a0b1542118c025a}{Polygon}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_ace39c67107966db12e13a183f496c3b0}\label{class_polygon_ace39c67107966db12e13a183f496c3b0}} 
+virtual {\bfseries $\sim$\+Polygon} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_polygon}{Polygon}} \& \mbox{\hyperlink{class_polygon_afa6c4ee147650491a3685c645430b992}{operator=}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em overload of operator = \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_polygon_a0e7572ea3f662a652643bb275e115292}{operator==}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&p)
+\begin{DoxyCompactList}\small\item\em overload of operator == \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_ae971a221f26793e00ee3055aaa5853b0}\label{class_polygon_ae971a221f26793e00ee3055aaa5853b0}} 
+void {\bfseries Init} ()
+\begin{DoxyCompactList}\small\item\em default initialization of the object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_polygon_a19a11205b332be736c329275bb3b045d}{Init}} (const \mbox{\hyperlink{class_polygon}{Polygon}} \&r)
+\begin{DoxyCompactList}\small\item\em initialization of the object as a copy of an object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_a0049882c6d5d7fda0fed6f9bcb4271d2}\label{class_polygon_a0049882c6d5d7fda0fed6f9bcb4271d2}} 
+void {\bfseries Reset} ()
+\begin{DoxyCompactList}\small\item\em total reset of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_polygon_af63a6443688ab576e9f42fcd4e8f30d0}{Get\+Area}} ()
+\begin{DoxyCompactList}\small\item\em get the area of the object \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_polygon_a7770bef071b4fe38cced3fd981e74af0}{Get\+Perimeter}} ()
+\begin{DoxyCompactList}\small\item\em get the perimeter of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_polygon_a702f6f4740487b93eb4ce5e6516f1876}{Error\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write an error message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_polygon_aadfc52c992fe7459a9a4529de5f46a81}{Warning\+Message}} (const char $\ast$string)
+\begin{DoxyCompactList}\small\item\em write a warning message \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_polygon_a77413dafe2bc94e8950749c40365868a}\label{class_polygon_a77413dafe2bc94e8950749c40365868a}} 
+void {\bfseries Dump} ()
+\begin{DoxyCompactList}\small\item\em for debugging\+: all about the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{OPERATORS}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_rhombus}{Rhombus}} \& \mbox{\hyperlink{class_rhombus_acf1ca62cf2d4c701b467e073a3f1a7f0}{operator=}} (const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r)
+\begin{DoxyCompactList}\small\item\em overload of operator = \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_rhombus_a900b7c976144622cb64a6c62971fc23c}{operator==}} (const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r) const
+\begin{DoxyCompactList}\small\item\em overload of operator == \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_rhombus_ac556c9077c72b2c3ee907a8bb29beeee}\label{class_rhombus_ac556c9077c72b2c3ee907a8bb29beeee}} 
+ostream \& {\bfseries operator$<$$<$} (ostream \&os, const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r)
+\item 
+\mbox{\Hypertarget{class_rhombus_aa7d02d482f83f0666b3e3015b0e616d7}\label{class_rhombus_aa7d02d482f83f0666b3e3015b0e616d7}} 
+istream \& {\bfseries operator$>$$>$} (istream \&is, const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&r)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_a961203408efc953ac0db1bbae4046a34}\label{class_polygon_a961203408efc953ac0db1bbae4046a34}} 
+virtual float {\bfseries Area} ()=0
+\item 
+\mbox{\Hypertarget{class_polygon_afb476eead8e22f4eb5109b1e5edd5e98}\label{class_polygon_afb476eead8e22f4eb5109b1e5edd5e98}} 
+virtual float {\bfseries Perimeter} ()=0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_polygon}{Polygon}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_polygon_a24b5b13ce358b9bceb3c7d75fc38a469}\label{class_polygon_a24b5b13ce358b9bceb3c7d75fc38a469}} 
+float {\bfseries perimeter}
+\item 
+\mbox{\Hypertarget{class_polygon_aa30cff56b9b4b5617605326d539867b2}\label{class_polygon_aa30cff56b9b4b5617605326d539867b2}} 
+float {\bfseries area}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+to manage an object with the shape of a rhombus 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_rhombus_ae04c36b198058242b0ea2b3a7eb33bcc}\label{class_rhombus_ae04c36b198058242b0ea2b3a7eb33bcc}} 
+\index{Rhombus@{Rhombus}!Rhombus@{Rhombus}}
+\index{Rhombus@{Rhombus}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{Rhombus()}{Rhombus()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Rhombus\+::\+Rhombus (\begin{DoxyParamCaption}\item[{float}]{dH,  }\item[{float}]{dV }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dH} & width in pixels \\
+\hline
+{\em dV} & length in pixels \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{class_rhombus_a1b04401f57bc75d086937485577f6fa7}\label{class_rhombus_a1b04401f57bc75d086937485577f6fa7}} 
+\index{Rhombus@{Rhombus}!Rhombus@{Rhombus}}
+\index{Rhombus@{Rhombus}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{Rhombus()}{Rhombus()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Rhombus\+::\+Rhombus (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&}]{r }\end{DoxyParamCaption})}
+
+
+
+copy constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reference} & to the object that should be copied \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 3
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_rhombus_ae425798d95014792d745392963cb9efa}\label{class_rhombus_ae425798d95014792d745392963cb9efa}} 
+\index{Rhombus@{Rhombus}!Draw@{Draw}}
+\index{Draw@{Draw}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+draw the object 
+
+
+
+Implements \mbox{\hyperlink{class_polygon_a4c5e91dc6a5534291d7e74fcbe5ee53c}{Polygon}}.
+
+Here is the call graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{class_rhombus_a70d5e28d6c6c07462a3cb8d468de203c}\label{class_rhombus_a70d5e28d6c6c07462a3cb8d468de203c}} 
+\index{Rhombus@{Rhombus}!ErrorMessage@{ErrorMessage}}
+\index{ErrorMessage@{ErrorMessage}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{ErrorMessage()}{ErrorMessage()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Error\+Message (\begin{DoxyParamCaption}\item[{const char $\ast$}]{string }\end{DoxyParamCaption})}
+
+
+
+write an error message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & message to be printed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_rhombus_abadd24f6904a118860f686279e78c491}\label{class_rhombus_abadd24f6904a118860f686279e78c491}} 
+\index{Rhombus@{Rhombus}!GetDim@{GetDim}}
+\index{GetDim@{GetDim}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{GetDim()}{GetDim()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Get\+Dim (\begin{DoxyParamCaption}\item[{float \&}]{dH,  }\item[{float \&}]{dV }\end{DoxyParamCaption})}
+
+
+
+set width and length of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dH} & width in pixels \\
+\hline
+{\em dV} & length in pixels \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_rhombus_acf1ca62cf2d4c701b467e073a3f1a7f0}\label{class_rhombus_acf1ca62cf2d4c701b467e073a3f1a7f0}} 
+\index{Rhombus@{Rhombus}!operator=@{operator=}}
+\index{operator=@{operator=}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_rhombus}{Rhombus}} \& Rhombus\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&}]{r }\end{DoxyParamCaption})}
+
+
+
+overload of operator = 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reference} & to the object on the right side of the operator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reference to the object on the left side of the operator 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{class_rhombus_a900b7c976144622cb64a6c62971fc23c}\label{class_rhombus_a900b7c976144622cb64a6c62971fc23c}} 
+\index{Rhombus@{Rhombus}!operator==@{operator==}}
+\index{operator==@{operator==}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Rhombus\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_rhombus}{Rhombus}} \&}]{r }\end{DoxyParamCaption}) const}
+
+
+
+overload of operator == 
+
+
+\begin{DoxyParams}{Parameters}
+{\em reference} & to the object on the right side of the operator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reference to the object on the left side of the operator 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_rhombus_ab09cd92941df407a546d8d17e1614e95}\label{class_rhombus_ab09cd92941df407a546d8d17e1614e95}} 
+\index{Rhombus@{Rhombus}!SetDiagH@{SetDiagH}}
+\index{SetDiagH@{SetDiagH}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{SetDiagH()}{SetDiagH()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Set\+DiagH (\begin{DoxyParamCaption}\item[{float}]{dH }\end{DoxyParamCaption})}
+
+
+
+set horizontal diagonal of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dH} & horizontal diagonal in pixels \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{class_rhombus_a7faa4094000dce54bdfde63ebd958037}\label{class_rhombus_a7faa4094000dce54bdfde63ebd958037}} 
+\index{Rhombus@{Rhombus}!SetDiagV@{SetDiagV}}
+\index{SetDiagV@{SetDiagV}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{SetDiagV()}{SetDiagV()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Set\+DiagV (\begin{DoxyParamCaption}\item[{float}]{dV }\end{DoxyParamCaption})}
+
+
+
+set vertical diagonal of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dV} & vertical diagonal in pixels \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{class_rhombus_af88d32916dcbb397932af5dc67aba176}\label{class_rhombus_af88d32916dcbb397932af5dc67aba176}} 
+\index{Rhombus@{Rhombus}!SetDim@{SetDim}}
+\index{SetDim@{SetDim}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{SetDim()}{SetDim()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Set\+Dim (\begin{DoxyParamCaption}\item[{float}]{dH,  }\item[{float}]{dV }\end{DoxyParamCaption})}
+
+
+
+set horizontal and vertical diagonal of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dH} & horizontal diagonal in pixels \\
+\hline
+{\em dV} & vertical diagonal in pixels \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{class_rhombus_a53eee6e2447661d690a1269d5dae4e0a}\label{class_rhombus_a53eee6e2447661d690a1269d5dae4e0a}} 
+\index{Rhombus@{Rhombus}!WarningMessage@{WarningMessage}}
+\index{WarningMessage@{WarningMessage}!Rhombus@{Rhombus}}
+\doxysubsubsection{\texorpdfstring{WarningMessage()}{WarningMessage()}}
+{\footnotesize\ttfamily void Rhombus\+::\+Warning\+Message (\begin{DoxyParamCaption}\item[{const char $\ast$}]{string }\end{DoxyParamCaption})}
+
+
+
+write a warning message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & message to be printed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{rhombus_8h}{rhombus.\+h}}\item 
+\mbox{\hyperlink{rhombus_8cpp}{rhombus.\+cpp}}\end{DoxyCompactItemize}

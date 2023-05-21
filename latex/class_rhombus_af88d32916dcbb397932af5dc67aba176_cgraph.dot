@@ -1,0 +1,13 @@
+digraph "Rhombus::SetDim"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Rhombus::SetDim",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="set horizontal and vertical diagonal of the object"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Rhombus::SetDiagH",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#ab09cd92941df407a546d8d17e1614e95",tooltip="set horizontal diagonal of the object"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Rhombus::SetDiagV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#a7faa4094000dce54bdfde63ebd958037",tooltip="set vertical diagonal of the object"];
+}

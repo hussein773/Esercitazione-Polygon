@@ -1,0 +1,15 @@
+digraph "isotrapezoid::SetDim"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="isotrapezoid::SetDim",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="set dimensions of the object"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="isotrapezoid::SetBase1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#ac24d48feb564f6101cfbf9f22317955b",tooltip="set Base1 of the object"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="isotrapezoid::SetBase2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a238668316dc53aa3f160d3d3a66bc54b",tooltip="set Base2 of the object"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="isotrapezoid::SetHeight",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classisotrapezoid.html#a82223d4b95265a4cfa4fb2a89299c646",tooltip="set Height of the object"];
+}

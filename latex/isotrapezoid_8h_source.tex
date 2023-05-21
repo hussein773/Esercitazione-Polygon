@@ -1,0 +1,57 @@
+\hypertarget{isotrapezoid_8h_source}{}\doxysection{isotrapezoid.\+h}
+\mbox{\hyperlink{isotrapezoid_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ ISOTRAPEZOID\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ ISOTRAPEZOID\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{polygon_8h}{polygon.h}}"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classisotrapezoid}{isotrapezoid}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_polygon}{Polygon}}\{}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{float}\ Base1;}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{float}\ Base2;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{float}\ Height;}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{float}\ Side;}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{float}\ Area();}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{float}\ Perimeter();}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{classisotrapezoid_ac497cff0140be36f97c13d096fb25db6}{isotrapezoid}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classisotrapezoid_ac497cff0140be36f97c13d096fb25db6}{isotrapezoid}}(\textcolor{keywordtype}{float}\ b1,\ \textcolor{keywordtype}{float}\ b2,\ \textcolor{keywordtype}{float}\ h);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classisotrapezoid_a14275f5176a80052a2bc42659497bdf3}{\string~isotrapezoid}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}}\&\ \mbox{\hyperlink{classisotrapezoid_a603395cff7648897dc7f4f42c4a38ded}{operator=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}}\ \&i)\ ;}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classisotrapezoid_ad33bcbbfa29b6c0d790b84800fa4b778}{operator==}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}}\ \&i)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a648309deba387ec70275f1156a62ff6f}{Init}}();}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a648309deba387ec70275f1156a62ff6f}{Init}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classisotrapezoid}{isotrapezoid}}\ \&i);}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a701d65939071d0efbc46ccb28f6f505f}{Reset}}();}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{float}\ GetDim();}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_a8f1a8c9a8e86a5286f0eab48d8f41c85}{GetBase1}}();}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_a91dac49c7717a47549c2e51279ece905}{GetBase2}}();}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_affaaf770a2cf8fe6a5d06fc5ec9ad440}{GetHeight}}();}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_a409e82c4c799067d04d70b03235b9756}{GetSide}}();}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_aecf83854976a4ea601f1d56f5cc18ad6}{GetPerimeter}}();}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classisotrapezoid_a3b4bff7be3bb3d343e16541261b90463}{GetArea}}();}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a4b3bab523d8480c483642410b5e82583}{SetDim}}(\textcolor{keywordtype}{float}\ b1,\ \textcolor{keywordtype}{float}\ b2,\ \textcolor{keywordtype}{float}\ h);}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_ac24d48feb564f6101cfbf9f22317955b}{SetBase1}}(\textcolor{keywordtype}{float}\ b1);}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a238668316dc53aa3f160d3d3a66bc54b}{SetBase2}}(\textcolor{keywordtype}{float}\ b2);}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a82223d4b95265a4cfa4fb2a89299c646}{SetHeight}}(\textcolor{keywordtype}{float}\ h);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_ad0189268c8d8c91044c15a86998078ad}{Draw}}();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classisotrapezoid_a5c2bc41751dcb30211694a372c720034}{ErrorDim}}();}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a71c4b22668a3a55c88f0fed7dbb2a268}{ErrorMessage}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a9efc008cfe85dd38951cd4dc0c723fad}{WarningMessage}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classisotrapezoid_a1334ada9db541be83aa6484b1b26b802}{Dump}}();}
+\DoxyCodeLine{00079\ \};}
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

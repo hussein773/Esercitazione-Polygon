@@ -1,0 +1,59 @@
+\hypertarget{rhombus_8h_source}{}\doxysection{rhombus.\+h}
+\mbox{\hyperlink{rhombus_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ RHOMBUS\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ RHOMBUS\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{polygon_8h}{polygon.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_rhombus}{Rhombus}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_polygon}{Polygon}}}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{float}\ diagH;}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{float}\ diagV;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{float}\ Side();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{float}\ Area();}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{float}\ Perimeter();}
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{class_rhombus_af2d9ee31831aae99fcaf68ac5ca8ef46}{Rhombus}}();}
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{class_rhombus_af2d9ee31831aae99fcaf68ac5ca8ef46}{Rhombus}}(\textcolor{keywordtype}{float}\ dH,\ \textcolor{keywordtype}{float}\ dV);}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{class_rhombus_af2d9ee31831aae99fcaf68ac5ca8ef46}{Rhombus}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\ \&r);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_rhombus_a3e1f19ec28b6a16582da9a5c176cb6c4}{\string~Rhombus}}();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_rhombus}{Rhombus}}\&\ \mbox{\hyperlink{class_rhombus_acf1ca62cf2d4c701b467e073a3f1a7f0}{operator=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\ \&r);}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_rhombus_a900b7c976144622cb64a6c62971fc23c}{operator==}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\ \&r)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{friend}\ ostream\&\ operator<<(ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\&\ r);}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keyword}{friend}\ istream\&\ operator>>(istream\&\ is,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\&\ r);}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_af0169681fb729d68acf7388885f7966b}{Init}}();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_af0169681fb729d68acf7388885f7966b}{Init}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_rhombus}{Rhombus}}\ \&r);}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_a8c4b1adb1985a785271e8b2a3c61d8ba}{Reset}}();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ GetDiagonals(\textcolor{keywordtype}{float}\ \&dH,\ \textcolor{keywordtype}{float}\ \&dV);}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_abadd24f6904a118860f686279e78c491}{GetDim}}(\textcolor{keywordtype}{float}\ \&dH,\ \textcolor{keywordtype}{float}\ \&dV);}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_rhombus_a67a2e6d01e6b13eb4e3d140c7be50d7e}{GetDiagH}}();}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_rhombus_a4ee1a8c64eb4a04ed77f708fdb1abb06}{GetDiagV}}();}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_rhombus_a8465bf6719165d8fe9588e03e18a4a38}{GetSide}}();}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_rhombus_abae45f585a75e451d1584818b6228d53}{GetArea}}();}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_rhombus_a566d63eecbad66c4a2898770e680e564}{GetPerimeter}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_af88d32916dcbb397932af5dc67aba176}{SetDim}}(\textcolor{keywordtype}{float}\ dH,\ \textcolor{keywordtype}{float}\ dV);}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_ab09cd92941df407a546d8d17e1614e95}{SetDiagH}}(\textcolor{keywordtype}{float}\ dH);}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_a7faa4094000dce54bdfde63ebd958037}{SetDiagV}}(\textcolor{keywordtype}{float}\ dV);}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_ae425798d95014792d745392963cb9efa}{Draw}}();}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_a70d5e28d6c6c07462a3cb8d468de203c}{ErrorMessage}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_a53eee6e2447661d690a1269d5dae4e0a}{WarningMessage}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\textcolor{keywordtype}{string});}
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_rhombus_a33a9f4a2d92b47b1043da1617d520eee}{Dump}}();}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \};}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

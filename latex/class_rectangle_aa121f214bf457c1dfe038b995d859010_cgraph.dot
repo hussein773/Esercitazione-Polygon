@@ -1,0 +1,13 @@
+digraph "Rectangle::operator="
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Rectangle::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="overload of operator ="];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Rectangle::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a8455713eb235a92116c6a0aa704c713b",tooltip="default initialization of the object"];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Rectangle::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a45c65472be80b81368fffa9386b5485d",tooltip="total reset of the object"];
+}

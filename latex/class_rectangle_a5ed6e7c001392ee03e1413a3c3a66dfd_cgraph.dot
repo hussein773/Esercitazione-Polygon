@@ -1,0 +1,17 @@
+digraph "Rectangle::Draw"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Rectangle::Draw",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="draw the object"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Rectangle::GetArea",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a643ed5165912609805c5c6cd30b7411b",tooltip="get the area of the object"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Rectangle::GetLength",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a92262812f98adff09fbdaa3752f3d528",tooltip="get length of the object"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Rectangle::GetPerimeter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a4e444d9646da302c150e4b9ab7951783",tooltip="get the perimeter of the object"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Rectangle::GetWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rectangle.html#a23580f0549823ebeff01c2b1cd4a443e",tooltip="get width of the object"];
+}

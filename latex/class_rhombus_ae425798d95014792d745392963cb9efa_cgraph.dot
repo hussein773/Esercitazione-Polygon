@@ -1,0 +1,19 @@
+digraph "Rhombus::Draw"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Rhombus::Draw",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="draw the object"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Rhombus::GetArea",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#abae45f585a75e451d1584818b6228d53",tooltip="get area of the object"];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Rhombus::GetDiagH",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#a67a2e6d01e6b13eb4e3d140c7be50d7e",tooltip="get horizontal diagonal of the object"];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Rhombus::GetDiagV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#a4ee1a8c64eb4a04ed77f708fdb1abb06",tooltip="get vertical diagonal of the object"];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Rhombus::GetPerimeter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#a566d63eecbad66c4a2898770e680e564",tooltip="get perimeter of the object"];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="Rhombus::GetSide",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_rhombus.html#a8465bf6719165d8fe9588e03e18a4a38",tooltip="get side of the object"];
+}
